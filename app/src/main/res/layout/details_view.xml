@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/details_container"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/detail_image"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@+id/detail_image"
+        android:layout_marginTop="17dp"
+        android:text="Test"
+        android:layout_marginRight="10dp"
+        android:id="@+id/text_title"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/detail_image"
+        android:layout_below="@+id/text_title"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="7dp"
+        android:text="Test"
+        android:textSize="15sp"
+        android:id="@+id/details_date"
+        />
+
+    <!--<ImageView-->
+        <!--android:layout_width="30dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_margin="20dp"-->
+        <!--android:src="@drawable/ic_delete_sweep_black_24dp"-->
+        <!--android:tooltipText="Delete"-->
+        <!--android:scaleType="fitXY"-->
+        <!--android:id="@+id/detail_delete"-->
+        <!--/>-->
+    
+</RelativeLayout>
